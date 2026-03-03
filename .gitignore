@@ -1,0 +1,58 @@
+# ── Virtual Environment ───────────────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+
+# ── YOLO Model Weights (auto-downloaded on first run) ─────────────────
+*.pt
+*.pth
+*.weights
+
+# ── Video Files (too large for GitHub) ───────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+
+# ── Generated Output Logs (created at runtime) ───────────────────────
+*.csv
+pipeline_log.csv
+car_count_log.csv
+classroom_log.csv
+test1_dynamic_cars_log.csv
+test2_static_elements_log.csv
+test3_90pct_rule_log.csv
+
+# ── Snapshots (saved during live runs) ───────────────────────────────
+snapshot_*.jpg
+snap_*.jpg
+
+# ── Python Cache ──────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── macOS Junk ────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDE / Editor ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Jupyter (if used) ────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Misc ──────────────────────────────────────────────────────────────
+*.log
+dist/
+build/
+*.egg-info/

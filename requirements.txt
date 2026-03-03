@@ -1,0 +1,20 @@
+# ─────────────────────────────────────────────────────────
+#  requirements.txt  —  Static/Dynamic Vehicle Detection
+# ─────────────────────────────────────────────────────────
+
+# Core deep learning / YOLO
+ultralytics>=8.0.0          # YOLOv8 (includes tiny/nano model yolov8n.pt)
+
+# Computer vision
+opencv-python>=4.8.0        # cv2 — video I/O, frame subtraction, drawing
+opencv-python-headless>=4.8.0  # use THIS instead on servers without a display
+
+# Numerical
+numpy>=1.24.0
+
+# Optional — for GPU acceleration (uncomment if you have NVIDIA GPU + CUDA)
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+
+# CPU-only PyTorch (ultralytics will install this automatically if not present)
+# torch>=2.0.0
